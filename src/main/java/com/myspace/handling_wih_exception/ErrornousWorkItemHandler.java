@@ -37,7 +37,7 @@ public class ErrornousWorkItemHandler implements WorkItemHandler {
          //   } else {
          //       counter++;
                 throw new ProcessWorkItemHandlerException(processId, strategy, new RuntimeException("On purpose"));
-            }
+         //    }
         }
         
         manager.completeWorkItem(workItem.getId(), null);

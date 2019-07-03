@@ -32,10 +32,10 @@ public class ErrornousWorkItemHandler implements WorkItemHandler {
         this.workItem = workItem;
         if (processId != null && strategy != null) {
             
-            if (counter > 3) {
+            if (counter >= 4) {
                 manager.completeWorkItem(workItem.getId(), workItem.getParameters());
             } else {
-                counter++;
+                counter = (java.lang.Integer)workItem.getParameter("code");;
                 throw new ProcessWorkItemHandlerException(processId, strategy, new RuntimeException("On purpose"));
             }
         }

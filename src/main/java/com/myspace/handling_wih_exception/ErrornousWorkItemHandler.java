@@ -32,7 +32,7 @@ public class ErrornousWorkItemHandler implements WorkItemHandler {
         this.workItem = workItem;
         if (processId != null && strategy != null) {
             
-            if (counter >= 3) {
+            if (counter > 3) {
                 manager.completeWorkItem(workItem.getId(), workItem.getParameters());
             } else {
                 counter++;

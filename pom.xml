@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.myspace</groupId>
-  <artifactId>handling-wih-exception</artifactId>
+  <groupId>com.bala</groupId>
+  <artifactId>digi-excep-handler</artifactId>
   <version>1.0.0</version>
   <packaging>kjar</packaging>
-  <name>handling-wih-exception</name>
+  <name>digi-excep-handler</name>
   <description>A sample project that illustrates how to handle work item handler exceptions</description>
   <dependencies>
     <dependency>

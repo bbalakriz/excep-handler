@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.myspace.handling_wih_exception.ErrornousWorkItemHandler("DealWithException", "RETRY")</identifier>
+            <identifier>new com.myspace.handling_wih_exception.ErrornousWorkItemHandler("DealWithException", "COMPLETE")</identifier>
             <parameters/>
             <name>CustomTask</name>
         </work-item-handler>

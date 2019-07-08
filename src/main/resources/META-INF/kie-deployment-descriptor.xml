@@ -12,6 +12,12 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new com.myspace.MyWorkItemHandler()</identifier>
+            <parameters/>
+            <name>CustomErrorTask</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler("DealWithException", "RETRY", ksession, classLoader)</identifier>
             <parameters/>
             <name>WebService</name>
@@ -19,12 +25,6 @@
         <work-item-handler>
             <resolver>mvel</resolver>
             <identifier>new com.myspace.handling_wih_exception.ErrornousWorkItemHandler("DealWithException", "RETRY")</identifier>
-            <parameters/>
-            <name>CustomTask1</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.myspace.MyWorkItemHandler()</identifier>
             <parameters/>
             <name>CustomTask</name>
         </work-item-handler>

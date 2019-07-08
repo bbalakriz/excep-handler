@@ -93,6 +93,20 @@
     ],
     "displayName" : "Custom",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "CustomErrorTask",
+    "parameters" : [
+        "Url" : new StringDataType(),
+         "input" : new StringDataType()
+    ],
+    "results" : [
+        "output" : new StringDataType(),
+        "code" : new IntegerDataType()
+    ],
+    "displayName" : "Custom",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]

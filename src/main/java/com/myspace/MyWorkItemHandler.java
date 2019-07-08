@@ -1,4 +1,4 @@
-package com.sample;
+package com.myspace;
 
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
